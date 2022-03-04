@@ -39,15 +39,19 @@ header{
 }
 
 .top-head .batton{
-    padding:25px;
+    padding:15px;
     background: #e02c6d;
     color: white;
-    margin-top: 1000px;
+    margin-top: 100px;
     text-decoration: none;
-    border-radius: 30px;
-    
+    border-radius: 28px;
+    transition: padding 2s;
 }
-
+.top-head .batton:hover{
+    padding: 40px; 
+    border-radius: 50px;
+    background-image:linear-gradient(lightblue, lightgray);
+}
 
 /* -----------
  player start
@@ -116,3 +120,41 @@ footer{
     font-size: 20px;
     opacity: 0.5;
 }
+
+
+
+
+/* -------------
+ mobail sytle
+ -------------*/
+ @media only screen and (max-width:688px){
+    
+    section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+    }
+        
+    .top-head{
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .top-head, .batton{
+        margin-bottom: 20px;
+    }
+    .top-banner img{
+        width: 200px;
+        display: grid;
+        padding-left: 50%;
+        height: 160px;
+
+    }
+    .player1, .player2, .player3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footer-img img{
+        width: 200px;
+    } 
+ }  
