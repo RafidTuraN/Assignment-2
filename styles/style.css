@@ -93,3 +93,26 @@ section{
     margin-right: 500px;
     box-shadow: 0px 0px 40px gray;
 }
+
+
+/*----------- 
+footer style
+------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img img{
+    width: 483px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer-icons i{
+    margin-left: 10px;
+    font-size: 20px;
+    opacity: 0.5;
+}
