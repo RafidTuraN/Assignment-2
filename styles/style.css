@@ -1,0 +1,95 @@
+/*-------- 
+common
+--------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------
+Top head and banner
+--------------------- */
+header{
+    background-color: #2d25a0;
+    display: flex;
+ }
+ h1{
+     margin-bottom: 50px;
+ }
+
+ span{
+     color: lightcoral;
+ }
+
+.top-head{
+    color: white;
+    margin-left: 300px;
+    padding-top: 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.top-banner img{
+    width: 556.01px;
+    height:  438px;
+    margin-bottom: 0;
+    margin-top: 67px;
+    padding-left: 100%;
+}
+
+.top-head .batton{
+    padding:25px;
+    background: #e02c6d;
+    color: white;
+    margin-top: 1000px;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+
+
+/* -----------
+ player start
+-------------- */
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    justify-items: center;
+}
+
+.players h2{
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+.players p{
+    padding: 10px;
+    font-weight: 700;
+}
+
+.players img{
+    width:300px;
+    margin: 15px;
+}
+
+.player1{
+    background: #ffff;
+    width: 330px;
+    margin-left: 500px;
+    box-shadow: 0px 0px 40px gray;
+}
+
+.player2{
+    background-color: #ffff;
+    width: 330px;
+    box-shadow: 0px 0px 40px gray;
+}
+
+.player3{
+    background: #ffff;
+    margin-right: 500px;
+    box-shadow: 0px 0px 40px gray;
+}
